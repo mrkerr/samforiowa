@@ -1,0 +1,27 @@
+html{
+  background-color: #00136D;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+.mobile-landing-coming-soon{
+  color: #00F021;
+  position: relative;
+  top: 30vh;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Lobster', cursive;
+}
+
+.in-the-meantime{
+  position: relative;
+  top: 20vh;
+  text-align: center;
+}
+
+.hide-meantime{
+  display: none;
+}
+
+.show-meantime{
+  display: block;
+}

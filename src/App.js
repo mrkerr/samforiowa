@@ -1,24 +1,19 @@
 import React from 'react';
 import logo from './logo.svg';
+import SamLandingMobile from './components/SamLandingMobile'
+import SamLandingDesktop from './components/SamLandingDesktop'
+import MediaQuery from 'react-responsive'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MediaQuery maxDeviceWidth={767}>
+        <SamLandingMobile/>
+      </MediaQuery>
+      <MediaQuery minDeviceWidth={768}>
+        <SamLandingDesktop/>
+      </MediaQuery>
     </div>
   );
 }
