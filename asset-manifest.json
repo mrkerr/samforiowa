@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/samforiowa/static/css/main.b9bc1017.chunk.css",
+    "main.js": "/samforiowa/static/js/main.a4d53c76.chunk.js",
+    "main.js.map": "/samforiowa/static/js/main.a4d53c76.chunk.js.map",
+    "runtime-main.js": "/samforiowa/static/js/runtime-main.948a519b.js",
+    "runtime-main.js.map": "/samforiowa/static/js/runtime-main.948a519b.js.map",
+    "static/js/2.c65633f0.chunk.js": "/samforiowa/static/js/2.c65633f0.chunk.js",
+    "static/js/2.c65633f0.chunk.js.map": "/samforiowa/static/js/2.c65633f0.chunk.js.map",
+    "index.html": "/samforiowa/index.html",
+    "precache-manifest.0fb8222a993e1829b2423e58d37e326c.js": "/samforiowa/precache-manifest.0fb8222a993e1829b2423e58d37e326c.js",
+    "service-worker.js": "/samforiowa/service-worker.js",
+    "static/css/main.b9bc1017.chunk.css.map": "/samforiowa/static/css/main.b9bc1017.chunk.css.map",
+    "static/js/2.c65633f0.chunk.js.LICENSE.txt": "/samforiowa/static/js/2.c65633f0.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/samforiowa/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.948a519b.js",
+    "static/js/2.c65633f0.chunk.js",
+    "static/css/main.b9bc1017.chunk.css",
+    "static/js/main.a4d53c76.chunk.js"
+  ]
+}
