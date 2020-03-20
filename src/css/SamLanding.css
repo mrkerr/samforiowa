@@ -25,3 +25,7 @@ html{
 .show-meantime{
   display: block;
 }
+
+a, a:visited{
+  color: #00F021;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/SamLanding.css'
 import Typed from 'react-typed';
+import {LANDING_PAGE_TEXT as LANDING_PAGE_TEXT} from "../constants/LandingPageConstants"
 
 class SamLandingDesktop extends React.Component {
   constructor(props){
@@ -28,7 +29,7 @@ class SamLandingDesktop extends React.Component {
           onComplete={this.showInMeantime.bind(this)}
         />
         <div className={meantimeClassNames}>
-          In the meantime, &nbsp;follow along on the <a href='https://www.facebook.com/samforiowa/' target='_blank'>Sam For Iowa</a> Facebook Page
+          {LANDING_PAGE_TEXT}
         </div>
       </div>
     )};
