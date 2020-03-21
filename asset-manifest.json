@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.37ff56a8.chunk.css",
-    "main.js": "/static/js/main.4a68c853.chunk.js",
-    "main.js.map": "/static/js/main.4a68c853.chunk.js.map",
+    "main.css": "/static/css/main.a40c2b38.chunk.css",
+    "main.js": "/static/js/main.ef08045e.chunk.js",
+    "main.js.map": "/static/js/main.ef08045e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8e21df3a.js",
     "runtime-main.js.map": "/static/js/runtime-main.8e21df3a.js.map",
     "static/js/2.d102e69d.chunk.js": "/static/js/2.d102e69d.chunk.js",
     "static/js/2.d102e69d.chunk.js.map": "/static/js/2.d102e69d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.fe914899388490bab4facc071b8c7e1b.js": "/precache-manifest.fe914899388490bab4facc071b8c7e1b.js",
+    "precache-manifest.8844c780766edad974b9d588bb76f1ab.js": "/precache-manifest.8844c780766edad974b9d588bb76f1ab.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.37ff56a8.chunk.css.map": "/static/css/main.37ff56a8.chunk.css.map",
+    "static/css/main.a40c2b38.chunk.css.map": "/static/css/main.a40c2b38.chunk.css.map",
     "static/js/2.d102e69d.chunk.js.LICENSE.txt": "/static/js/2.d102e69d.chunk.js.LICENSE.txt",
     "static/media/cow_logo_blue.png": "/static/media/cow_logo_blue.5d632136.png",
     "static/media/sam_for_iowa.png": "/static/media/sam_for_iowa.a5f63e61.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.8e21df3a.js",
     "static/js/2.d102e69d.chunk.js",
-    "static/css/main.37ff56a8.chunk.css",
-    "static/js/main.4a68c853.chunk.js"
+    "static/css/main.a40c2b38.chunk.css",
+    "static/js/main.ef08045e.chunk.js"
   ]
 }
