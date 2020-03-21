@@ -1,9 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import SamLandingMobile from './components/SamLandingMobile'
 import SamLandingDesktop from './components/SamLandingDesktop'
 import MediaQuery from 'react-responsive'
-import './App.css';
+import './App.css'
 
 function App() {
   return (

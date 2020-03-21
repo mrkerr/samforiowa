@@ -1,35 +1,46 @@
 import React from 'react';
-import '../css/SamLanding.css'
-import Typed from 'react-typed';
-import {LANDING_PAGE_TEXT as LANDING_PAGE_TEXT} from "../constants/LandingPageConstants"
+import '../css/SamLandingMobile.css'
+import Header from './Header'
+import SamForIowa from '../images/sam_for_iowa.png'
+import CowLogo from '../images/cow_logo_blue.png'
 
 class SamLandingMobile extends React.Component {
   constructor(props){
     super(props);
-    this.state = {
-      showMeantime: false
-    }
   }
-
-  showInMeantime(){
-    let x = 5
-    this.setState({showMeantime: !this.state.showMeantime})
-  }
+  
 
   render() {
-    const meantimeClassNames = this.state.showMeantime ? 'in-the-meantime show-meantime' : 'in-the-meantime hide-meantime'
 
     return(
-      <div className='mobile-landing-coming-soon'>
-        <Typed
-          strings={['Sam For Iowa <br/><br/> coming soon...']}
-          typeSpeed={50}
-          showCursor={false}
-          contentType= {'html'}
-          onComplete={this.showInMeantime.bind(this)}
-        />
-        <div className={meantimeClassNames}>
-          {LANDING_PAGE_TEXT}
+      <div>
+        <Header/>
+        <div className='grid-container-mobile'>
+          <div className='title-mobile'>
+            <div className='title-left-align-mobile'>
+              <span>Learn Muhr.<br/>Love Muhr.<br/> Vote Muhr.</span>
+            </div>
+          </div>
+          <div className='yellow-bar-mobile'>
+          </div>
+          <div className='sam-for-iowa-mobile'>
+            <img src={SamForIowa}/>
+          </div>
+          <div className='yellow-bar-two-mobile'>
+          </div>
+          <div className='short-bio-mobile'>
+            <p>I am running for the Iowa House of Representatives as a Democrat in the 12th District, including Audubon, Carroll, and and part of Crawford counties.<br/>
+               I would be honored to earn your support. 
+            </p>
+          </div>
+          <div className='social-mobile'>
+            <p>Connect with Sam</p>
+            <p><a href='https://www.facebook.com/samforiowa/' target='_blank'>Facebook</a></p>
+            <p><a href='https://twitter.com/MuhrSam' target='_blank'>Twitter</a></p>
+          </div>
+          <div className='cow-logo-mobile'>
+            <img src={CowLogo}/>
+          </div>
         </div>
       </div>
     )};
