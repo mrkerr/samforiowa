@@ -3,6 +3,7 @@ import '../css/SamLandingMobile.css'
 import Header from './Header'
 import SamForIowa from '../images/sam_for_iowa.png'
 import CowLogo from '../images/cow_logo_blue.png'
+import {Link} from "react-router-dom";
 
 class SamLandingMobile extends React.Component {
   constructor(props){
@@ -29,7 +30,7 @@ class SamLandingMobile extends React.Component {
           <div className='yellow-bar-two-mobile'>
           </div>
           <div className='short-bio-mobile'>
-            <p>I am running for the Iowa House of Representatives as a Democrat in the 12th District, including Audubon, Carroll, and and part of Crawford counties.<br/>
+            <p>I am running for the Iowa House of Representatives as a Democrat in the 12th District, including Audubon, Carroll, and part of Crawford counties.<br/>
                I would be honored to earn your support. 
             </p>
           </div>
@@ -37,6 +38,7 @@ class SamLandingMobile extends React.Component {
             <p>Connect with Sam</p>
             <p><a href='https://www.facebook.com/samforiowa/' target='_blank'>Facebook</a></p>
             <p><a href='https://twitter.com/MuhrSam' target='_blank'>Twitter</a></p>
+            <p>Email: SamForIowa@gmail.com</p>
           </div>
           <div className='cow-logo-mobile'>
             <img src={CowLogo}/>

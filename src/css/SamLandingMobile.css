@@ -13,7 +13,8 @@
     'yellow-bar-two yellow-bar-two yellow-bar-two yellow-bar-two yellow-bar-two yellow-bar-two'
     'short-bio short-bio short-bio short-bio short-bio short-bio'
     'social social social social social social'
-    'cow-logo cow-logo cow-logo cow-logo cow-logo cow-logo';
+    'cow-logo cow-logo cow-logo cow-logo cow-logo cow-logo'
+    'articles-button-mobile articles-button-mobile articles-button-mobile articles-button-mobile articles-button-mobile articles-button-mobile';
 
   grid-gap: 20px;
   padding: 30px;
@@ -67,7 +68,8 @@
   grid-area: social;
   color: var(--main-blue);
   background-color: var(--main-green);
-  font-size: 30px;
+  font-size: 20px;
+  border: 5px solid var(--main-yellow);
 }
 
 .cow-logo-mobile{
@@ -80,8 +82,13 @@
   height: auto;
 }
 
-a, a:visited{
+/* a, a:visited{
   color: var(--main-blue);
+} */
+
+.articles-button-mobile{
+  grid-area: articles-button-mobile;
+  color: var(--main-green)
 }
 
 

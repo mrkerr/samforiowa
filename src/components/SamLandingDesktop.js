@@ -27,7 +27,7 @@ class SamLandingDesktop extends React.Component {
             <img src={SamForIowa}/>
           </div>
           <div className='short-bio-desktop'>
-            <p>I am running for the Iowa House of Representatives as a Democrat in the 12th District, including Audubon, Carroll, and and part of Crawford counties.<br/>
+            <p>I am running for the Iowa House of Representatives as a Democrat in the 12th District, including Audubon, Carroll, and part of Crawford counties.<br/>
                I would be honored to earn your support. 
             </p>
           </div>
@@ -35,6 +35,7 @@ class SamLandingDesktop extends React.Component {
             <p>Connect with Sam</p>
             <p><a href='https://www.facebook.com/samforiowa/' target='_blank'>Facebook</a></p>
             <p><a href='https://twitter.com/MuhrSam' target='_blank'>Twitter</a></p>
+            <p>Email: &nbsp;SamForIowa@gmail.com</p>
           </div>
           <div className='cow-logo-desktop'>
             <img src={CowLogo}/>
