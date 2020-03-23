@@ -13,10 +13,10 @@ import './App.css'
 function App() {
   return (
       <div className="App">
-        <MediaQuery maxDeviceWidth={767}>
+        <MediaQuery maxDeviceWidth={500}>
           <SamLandingMobile/>
         </MediaQuery>
-        <MediaQuery minDeviceWidth={768}>
+        <MediaQuery minDeviceWidth={501}>
           <SamLandingDesktop/>
         </MediaQuery>
       </div>

@@ -1,3 +1,10 @@
 html{
   background-color: #00136D;
 }
+
+::selection {
+  background: #00F021; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #00F021; /* Gecko Browsers */
+}
