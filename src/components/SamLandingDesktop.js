@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/SamLandingDesktop.css'
+import { Link } from 'react-router-dom';
 import Header from './Header'
 import SamForIowa from '../images/sam_for_iowa.png'
 import CowLogo from '../images/cow_logo_blue.png'
@@ -36,6 +37,17 @@ class SamLandingDesktop extends React.Component {
             <p><a href='https://www.facebook.com/samforiowa/' target='_blank'>Facebook</a></p>
             <p><a href='https://twitter.com/MuhrSam' target='_blank'>Twitter</a></p>
             <p>Email: &nbsp;SamForIowa@gmail.com</p>
+          </div>
+          <div className='yellow-bar-two-desktop'>
+          </div>
+          <div className='articles-button-desktop'>
+            <div className='button-inline'>
+              <Link to='/articles'>
+                Check out Sam in the Press!
+              </Link>
+            </div>
+          </div>
+          <div className='yellow-bar-three-desktop'>
           </div>
           <div className='cow-logo-desktop'>
             <img src={CowLogo}/>

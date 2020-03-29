@@ -11,6 +11,9 @@
     'yellow-bar yellow-bar yellow-bar yellow-bar yellow-bar yellow-bar'
     'sam-for-iowa sam-for-iowa sam-for-iowa short-bio short-bio short-bio'
     'sam-for-iowa sam-for-iowa sam-for-iowa social social social'
+    'yellow-bar-two yellow-bar-two yellow-bar-two yellow-bar-two yellow-bar-two yellow-bar-two'
+    'articles-button articles-button articles-button articles-button articles-button articles-button'
+    'yellow-bar-three yellow-bar-three yellow-bar-three yellow-bar-three yellow-bar-three yellow-bar-three'
     'cow-logo cow-logo cow-logo cow-logo cow-logo cow-logo';
 
   grid-gap: 20px;
@@ -69,6 +72,34 @@
   border: 8px solid var(--main-yellow);
 }
 
+.yellow-bar-two-desktop{
+  grid-area: yellow-bar-two;
+  height: 15px;
+  background-color: var(--main-yellow);
+}
+
+.articles-button-desktop{
+  grid-area: articles-button;
+  height: 100px;
+  font-size: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 100px;
+}
+
+.button-inline{
+  display: inline-block;
+  background-color: var(--main-yellow);
+  padding: 40px;
+  width: 40%;
+  border: 8px solid var(--main-green);
+}
+
+.yellow-bar-three-desktop{
+  grid-area: yellow-bar-three;
+  height: 15px;
+  background-color: var(--main-yellow);
+}
 
 .cow-logo-desktop{
   grid-area: cow-logo;

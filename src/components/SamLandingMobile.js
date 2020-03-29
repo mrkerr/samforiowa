@@ -40,10 +40,22 @@ class SamLandingMobile extends React.Component {
             <p><a href='https://twitter.com/MuhrSam' target='_blank'>Twitter</a></p>
             <p>Email: SamForIowa@gmail.com</p>
           </div>
+          <div className='yellow-bar-three-mobile'>
+          </div>
+          <div className='articles-button-mobile'>
+            <div className='button-inline-mobile'>
+              <Link to='/articles'>
+                Check out Sam in the Press!
+              </Link>
+            </div>
+          </div>
           <div className='cow-logo-mobile'>
             <img src={CowLogo}/>
           </div>
         </div>
+        <Link to='/articles'>
+            <button className="button mt-20" type="submit">Sign in</button>
+        </Link>
       </div>
     )};
 }

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
+:root {
+  --main-green: #00F021;
+  --main-blue: #00136D;
+  --main-yellow: #FFD800;
+}
+
+
+.articles-yellow-bar-mobile{
+  height: 10px;
+  background-color: var(--main-yellow);
+  width: 100%;
+}
+.articles-title-mobile{
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  font-size: 15px;
+  font-family: 'Special Elite', cursive;
+}
+
+.articles-wrapper-mobile {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-row-gap: 20px;
+  grid-column-gap: 10px;
+  padding: 30px;
+  font-family: 'Special Elite', cursive;
+  overflow: hidden;
+  color: var(--main-blue);
+  text-align: center;
+  font-size: 20px;
+}
+
+.articles-date-mobile{
+  text-align: center;
+  background-color: #A6A2A1;
+}
+
+.articles-content-mobile{
+  text-align: left;
+  background-color: var(--main-green);
+  padding: 5px;
+}
+
+.articles-content-title-mobile{
+  font-size: larger;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+}
+
+
+
+a, a:visited{
+  color: var(--main-blue);
+}
+
+
+
+

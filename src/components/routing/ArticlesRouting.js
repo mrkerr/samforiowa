@@ -1,21 +1,20 @@
 import React from 'react';
-import SamLandingMobile from './components/SamLandingMobile'
-import SamLandingDesktop from './components/SamLandingDesktop'
+import ArticlesDesktop from '../ArticlesDesktop'
+import ArticlesMobile from '../ArticlesMobile'
 import MediaQuery from 'react-responsive'
-import './App.css'
 
-function App() {
+function ArticlesRouting() {
   return (
     
       <div className="App">
         <MediaQuery maxDeviceWidth={500}>
-          <SamLandingMobile/>
+          <ArticlesMobile/>
         </MediaQuery>
         <MediaQuery minDeviceWidth={501}>
-          <SamLandingDesktop/>
+          <ArticlesDesktop/>
         </MediaQuery>
       </div>
   );
 }
 
-export default App;
+export default ArticlesRouting;
