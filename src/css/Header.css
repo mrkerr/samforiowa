@@ -7,3 +7,53 @@
   height: auto;
   object-fit: cover;
 }
+
+.topbar{
+  height: 40px;
+  text-align: right;
+  width: 100%;
+}
+
+.topbar-buttons{
+  height: 100%;
+  background-color: var(--main-blue);
+  display: inline-block;
+}
+
+.topbar-button-desktop{
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 10px;
+  height: 100%;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.topbar-button-mobile{
+  padding-right: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
+  height: 100%;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.topbar-button-desktop > a{
+  text-decoration: none;
+  color: white;
+}
+
+.topbar-button-desktop > a:visited{
+  text-decoration: none;
+  color: white;
+}
+
+.topbar-button-mobile > a{
+  text-decoration: none;
+  color: white;
+}
+
+.topbar-button-mobile > a:visited{
+  text-decoration: none;
+  color: white;
+}

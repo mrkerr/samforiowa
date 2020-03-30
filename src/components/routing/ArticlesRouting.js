@@ -7,10 +7,10 @@ function ArticlesRouting() {
   return (
     
       <div className="App">
-        <MediaQuery maxDeviceWidth={500}>
+        <MediaQuery maxDeviceWidth={800}>
           <ArticlesMobile/>
         </MediaQuery>
-        <MediaQuery minDeviceWidth={501}>
+        <MediaQuery minDeviceWidth={801}>
           <ArticlesDesktop/>
         </MediaQuery>
       </div>

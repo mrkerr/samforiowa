@@ -8,10 +8,10 @@ function App() {
   return (
     
       <div className="App">
-        <MediaQuery maxDeviceWidth={500}>
+        <MediaQuery maxDeviceWidth={800}>
           <SamLandingMobile/>
         </MediaQuery>
-        <MediaQuery minDeviceWidth={501}>
+        <MediaQuery minDeviceWidth={801}>
           <SamLandingDesktop/>
         </MediaQuery>
       </div>
