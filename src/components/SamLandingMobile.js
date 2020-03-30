@@ -53,9 +53,6 @@ class SamLandingMobile extends React.Component {
             <img src={CowLogo}/>
           </div>
         </div>
-        <Link to='/articles'>
-            <button className="button mt-20" type="submit">Sign in</button>
-        </Link>
       </div>
     )};
 }

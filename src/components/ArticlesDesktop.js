@@ -24,7 +24,7 @@ class ArticlesDesktop extends React.Component {
           <div className='articles-date-desktop'>
             <p>
               <span>March 16th, 2020</span><br/><br/>
-              <span>Carroll Times Harold</span>
+              <span>Carroll Times Herald</span>
             </p>
           </div>
           <div className='articles-content-desktop'>
